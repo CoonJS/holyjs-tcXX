@@ -1,12 +1,17 @@
 # ECMAScript proposal: Immutable type
+- [About](#about-me)
 - [Motivation](#motivation)
 - [Example](#example)
 - [High-level API](#high-level-api)
 - [FAQ](#faq)
 
+## About
+
+![Logo](https://hsto.org/files/40b/823/ade/40b823ade9a644bf8be0c6992d164da0.png)
+
 ## Motivation
 
-Immutable
+Immutable type
 
 You can create immutable objects to be sure that the properties of the object will not be overwritten.
 
