@@ -12,7 +12,7 @@
 
 Immutable type
 
-You can create immutable objects to be sure that the properties of the object will not be overwritten.
+You can create immutable objects to be sure that the properties of the object cannot be overwritten.
 
 ## Example 
 
@@ -27,9 +27,9 @@ const obj = {
 
 const immutableObject = new Immutable(obj);
 
-obj.a = 3; // Uncaught TypeError: Properties of the Immutable object will not be overwritten.
-obj.b = [1,2,3]; // Uncaught TypeError: Properties of the Immutable object will not be overwritten.
-obj.c.prop1 = 'newPropValue' // Uncaught TypeError: Properties of the Immutable object will not be overwritten.
+obj.a = 3; // Uncaught TypeError: Properties of the Immutable object cannot be overwritten.
+obj.b = [1,2,3]; // Uncaught TypeError: Properties of the Immutable object cannot be overwritten.
+obj.c.prop1 = 'newPropValue' // Uncaught TypeError: Properties of the Immutable object cannot be overwritten.
 
 ```
 
