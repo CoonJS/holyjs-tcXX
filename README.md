@@ -7,7 +7,6 @@
 
 ## About
 
-![Logo](https://hsto.org/files/40b/823/ade/40b823ade9a644bf8be0c6992d164da0.png)
 
 ## Motivation
 
